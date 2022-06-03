@@ -1,0 +1,57 @@
+{
+  "name": "react-native-dropbox-upload-zluck",
+  "version": "1.0.0",
+  "description": "React native dropbox upload library, for small and large files",
+  "main": "src/index.tsx",
+  "scripts": {
+    "test": "jest",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "fixcode": "eslint --fix --ext .js,.jsx,.ts,.tsx ./src",
+    "android-clean": "cd android && ./gradlew clean",
+    "apk": "cd android && ./gradlew assembleRelease",
+    "bundle": "cd android && ./gradlew bundleRelease",
+    "clean": "rm -rf node_modules ios/Pods && yarn && npx pod-install ios"
+  },
+  "author": "Zluck Solutions",
+  "license": "ISC",
+  "dependencies": {
+    "react": "17.0.1",
+    "react-native": "0.64.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "react-native-app-auth": "^6.4.3",
+    "react-native-fs": "^2.19.0",
+    "rn-fetch-blob": "^0.12.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/runtime": "^7.12.5",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "@types/jest": "^26.0.23",
+    "@types/lodash": "^4.14.177",
+    "@types/react": "^17",
+    "@types/react-native": "^0.64.5",
+    "@types/react-test-renderer": "^16.9.2",
+    "babel-jest": "^26.6.3",
+    "eslint": "^7.14.0",
+    "jest": "^26.6.3",
+    "jsc-android": "^250230.2.1",
+    "metro-react-native-babel-preset": "^0.64.0",
+    "react-test-renderer": "17.0.1",
+    "typescript": "^3.8.3"
+  },
+  "jest": {
+    "preset": "react-native",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  }
+}
