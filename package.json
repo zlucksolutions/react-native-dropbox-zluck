@@ -1,6 +1,6 @@
 {
   "name": "react-native-dropbox-upload-zluck",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React native dropbox upload library, for small and large files",
   "main": "src/index.tsx",
   "scripts": {
