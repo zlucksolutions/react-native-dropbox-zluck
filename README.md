@@ -12,12 +12,12 @@ This package will let user's upload small, as well as large files to the Dropbox
 Install the package
 
 ```sh
-npm i react-native-dropbox-upload-zluck
+npm i react-native-dropbox-zluck
 ```
 
 ## Usage
 ```sh
-import Dropbox from 'react-native-dropbox-upload-zluck';
+import Dropbox from 'react-native-dropbox-zluck';
 ```
 
 ## Download file
