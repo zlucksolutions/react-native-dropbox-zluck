@@ -1,6 +1,11 @@
 # Dropbox Upload
 
-This package will let user's upload small, as well as large files to the Dropbox using Dropbox API.
+This package will let user upload small, as well as large files to the Dropbox using Dropbox API.
+
+<p align="center">
+  <img src="https://img.shields.io/npm/dw/react-native-dropbox-zluck" />
+  <img src="https://img.shields.io/npm/v/react-native-dropbox-zluck" />
+</p>
 
 ## Features
 

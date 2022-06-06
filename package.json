@@ -7,6 +7,13 @@
     "type": "git",
     "url": "https://github.com/zlucksolutions/react-native-dropbox-zluck.git"
   },
+  "keywords": [
+    "react-native",
+    "dropbox",
+    "large file upload",
+    "small file upload",
+    "chunk upload"
+  ],
   "scripts": {
     "test": "jest",
     "android": "react-native run-android",
